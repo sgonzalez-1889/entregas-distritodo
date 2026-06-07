@@ -10,8 +10,8 @@ import {
 //  CONEXIÓN A LA BASE DE DATOS (Supabase)
 //  Pega aquí los dos datos de tu proyecto de Supabase.
 //  Settings → API:  Project URL  y  la clave pública (anon / publishable)
-const SUPABASE_URL = "https://TU-PROYECTO.supabase.co";
-const SUPABASE_KEY = "TU_CLAVE_PUBLICA_AQUI";
+const SUPABASE_URL = "https://rigyrpgmudrndhxmhopw.supabase.co"
+const SUPABASE_KEY = "sb_publishable_3qwE0y9td7AQVawjuW2GUg_BbOcb_HG"
 // ============================================================
 const hayBD = SUPABASE_URL.startsWith("https://") && !SUPABASE_URL.includes("TU-PROYECTO") && !SUPABASE_KEY.includes("TU_CLAVE");
 const supabase = hayBD ? createClient(SUPABASE_URL, SUPABASE_KEY) : null;
