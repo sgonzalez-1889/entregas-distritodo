@@ -5,8 +5,8 @@ import * as XLSX from 'xlsx';
 // ============================================================
 // CONFIGURA AQUÍ TUS LLAVES DE SUPABASE
 // ============================================================
-const SUPABASE_URL = 'TU_SUPABASE_URL';
-const SUPABASE_ANON_KEY = 'TU_SUPABASE_ANON_KEY';
+const SUPABASE_URL = 'https://itimhetmoukdlnkugdlr.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable__bHxJlw4RdOCX9A0T4Ytvw_25g0uRZS';
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 // ============================================================
